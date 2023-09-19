@@ -7,7 +7,7 @@ import nuxt from "@/assets/technology/nuxt-js.png";
 import vue from "@/assets/technology/vue-js.svg";
 import tailwindcss from "@/assets/technology/tailwindcss.png";
 import express from "@/assets/technology/express.svg";
-import axios from "@/assets/technology/axios-icon.svg";
+import axios from "@/assets/technology/axios.svg";
 import sequelize from "@/assets/technology/sequelize.svg";
 
 export const technologies = [
