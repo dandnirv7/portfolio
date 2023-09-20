@@ -40,7 +40,7 @@ const getRandomProjects = () => {
           <p class="mt-2">{{ project.description }}</p>
           <div class="mt-4">
             <h3 class="font-semibold text-white uppercase">Techs Used</h3>
-            <ul class="flex flex-row w-24 mt-2">
+            <ul class="flex flex-row items-center w-full mt-2 space-x-2">
               <li
                 v-for="(tech, techIndex) in project.techStack"
                 :key="techIndex"

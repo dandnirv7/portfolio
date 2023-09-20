@@ -14,11 +14,11 @@ const closeMobileMenu = () => {
   <div
     class="fixed top-0 left-0 right-0 border-b border-gray-600 backdrop-blur bg-black/20 lg:px-20 xl:px-40 md:px-8 md:border-0"
   >
-    <div class="flex items-center justify-between px-5 py-3">
+    <div class="flex items-center justify-between px-5 py-3 relative">
       <router-link
         to="/"
         aria-label="Logo"
-        class="items-center justify-center order-2 w-full -ml-5 md:order-1 md:-ml-0"
+        class="fixed top-1.5 left-1/2 order-2 -ml-5 md:order-1 md:-ml-0 md:w-max md:static md:top-0 md:left-0"
       >
         <img src="@/assets/logo.png" alt="Dandnirv" class="w-9" />
       </router-link>
@@ -33,14 +33,14 @@ const closeMobileMenu = () => {
 
         <button
           v-if="mobileMenuActive"
-          class="text-gray-400 hover:text-[#64ffda] hover:no-underline absolute top-5 left-5"
+          class="text-gray-400 hover:text-[#64ffda] hover:no-underline absolute top-1/4 left-5"
           @click="closeMobileMenu"
         >
           <Icon name="heroicons-solid:x" size="24px" />
         </button>
       </div>
 
-      <header class="hidden md:block md:w-full md:order-2">
+      <header class="hidden md:block md:order-2">
         <nav class="flex items-center justify-center space-x-6">
           <router-link
             to="/"
@@ -85,6 +85,7 @@ const closeMobileMenu = () => {
             :class="{
               'text-[#64ffda] hover:no-underline': $route.path === '/',
             }"
+            @click="closeMobileMenu"
           >
             Home
           </router-link>
@@ -94,6 +95,7 @@ const closeMobileMenu = () => {
             :class="{
               'text-[#64ffda] hover:no-underline': $route.path === '/about-me',
             }"
+            @click="closeMobileMenu"
           >
             About Me
           </router-link>
@@ -103,6 +105,7 @@ const closeMobileMenu = () => {
             :class="{
               'text-[#64ffda] hover:no-underline': $route.path === '/projects',
             }"
+            @click="closeMobileMenu"
           >
             My Work
           </router-link>

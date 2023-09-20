@@ -18,7 +18,7 @@
       <div class="w-max">
         <router-link
           to="/about-me"
-          class="flex items-center justify-center px-10 py-3 text-lg font-semibold text-white rounded-full bg-[#64ffda]"
+          class="flex items-center justify-center px-10 py-3 text-lg font-semibold text-white rounded-full bg-[#51ddbd]"
         >
           Get to know me
         </router-link>
