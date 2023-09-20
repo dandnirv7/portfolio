@@ -1,15 +1,15 @@
 {
-  "_config.ce760ab7.js": {
+  "_config.5aa3286c.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "config.ce760ab7.js",
+    "file": "config.5aa3286c.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_projects.0761355b.js": {
+  "_projects.01c4bf63.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -21,9 +21,9 @@
       "poke-api.fe0044f2.png",
       "github-thumbnail.f40226db.png"
     ],
-    "file": "projects.0761355b.js",
+    "file": "projects.01c4bf63.js",
     "imports": [
-      "_sequelize.aa1d59ed.js",
+      "_sequelize.b5c40cc3.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -57,7 +57,7 @@
     "prefetch": true,
     "mimeType": "image/png"
   },
-  "_sequelize.aa1d59ed.js": {
+  "_sequelize.b5c40cc3.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -69,9 +69,9 @@
       "axios.99d73245.svg",
       "sequelize.46b9a32d.svg"
     ],
-    "file": "sequelize.aa1d59ed.js",
+    "file": "sequelize.b5c40cc3.js",
     "imports": [
-      "_vue.f36acd1f.0a4267cd.js",
+      "_vue.f36acd1f.38affc14.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -105,12 +105,12 @@
     "prefetch": true,
     "mimeType": "image/svg+xml"
   },
-  "_vue.f36acd1f.0a4267cd.js": {
+  "_vue.f36acd1f.38affc14.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.0a4267cd.js",
+    "file": "vue.f36acd1f.38affc14.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -197,12 +197,14 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "css": [],
-    "file": "default.100f4bd7.js",
+    "css": [
+      "default.f0a387a1.css"
+    ],
+    "file": "default.cfa46f4b.js",
     "imports": [
       "node_modules/nuxt-icon/dist/runtime/Icon.vue",
       "node_modules/nuxt/dist/app/entry.js",
-      "_config.ce760ab7.js"
+      "_config.5aa3286c.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/default.vue"
@@ -225,11 +227,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "css": [],
-    "file": "error-404.2ad06c28.js",
+    "css": [
+      "error-404.95c28eb4.css"
+    ],
+    "file": "error-404.6f2ab778.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.0a4267cd.js"
+      "_vue.f36acd1f.38affc14.js"
     ],
     "isDynamicEntry": true,
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"
@@ -252,10 +256,12 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "css": [],
-    "file": "error-500.eda596ac.js",
+    "css": [
+      "error-500.e798523c.css"
+    ],
+    "file": "error-500.7cfd30c8.js",
     "imports": [
-      "_vue.f36acd1f.0a4267cd.js",
+      "_vue.f36acd1f.38affc14.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -279,11 +285,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "css": [],
-    "file": "Icon.6e59e9b7.js",
+    "css": [
+      "Icon.6f5d80f8.css"
+    ],
+    "file": "Icon.5bde011f.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_config.ce760ab7.js"
+      "_config.5aa3286c.js"
     ],
     "isDynamicEntry": true,
     "src": "node_modules/nuxt-icon/dist/runtime/Icon.vue"
@@ -306,11 +314,13 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "css": [],
-    "file": "IconCSS.85dcd994.js",
+    "css": [
+      "IconCSS.fe0874d9.css"
+    ],
+    "file": "IconCSS.f7deb15a.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_config.ce760ab7.js"
+      "_config.5aa3286c.js"
     ],
     "isDynamicEntry": true,
     "src": "node_modules/nuxt-icon/dist/runtime/IconCSS.vue"
@@ -321,31 +331,46 @@
     "prefetch": true,
     "preload": true
   },
+  "node_modules/nuxt/dist/app/entry.css": {
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true,
+    "file": "entry.3fc72b5f.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
+  },
   "node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
+    "css": [
+      "entry.3fc72b5f.css"
+    ],
     "dynamicImports": [
       "layouts/default.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.9ef246b9.js",
+    "file": "entry.9ae12ae5.js",
     "isEntry": true,
-    "src": "node_modules/nuxt/dist/app/entry.js",
-    "_globalCSS": true
+    "src": "node_modules/nuxt/dist/app/entry.js"
+  },
+  "entry.3fc72b5f.css": {
+    "file": "entry.3fc72b5f.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
   },
   "pages/about-me.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "about-me.41d28381.js",
+    "file": "about-me.24de5ac7.js",
     "imports": [
-      "_sequelize.aa1d59ed.js",
+      "_sequelize.b5c40cc3.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.0a4267cd.js"
+      "_vue.f36acd1f.38affc14.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/about-me.vue"
@@ -355,12 +380,12 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.b41a659b.js",
+    "file": "index.d3036d28.js",
     "imports": [
-      "_sequelize.aa1d59ed.js",
-      "_projects.0761355b.js",
+      "_sequelize.b5c40cc3.js",
+      "_projects.01c4bf63.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.0a4267cd.js"
+      "_vue.f36acd1f.38affc14.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/index.vue"
@@ -370,12 +395,12 @@
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "projects.1baf986a.js",
+    "file": "projects.91ec5517.js",
     "imports": [
-      "_sequelize.aa1d59ed.js",
-      "_projects.0761355b.js",
+      "_sequelize.b5c40cc3.js",
+      "_projects.01c4bf63.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_vue.f36acd1f.0a4267cd.js"
+      "_vue.f36acd1f.38affc14.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/projects.vue"
