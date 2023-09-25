@@ -12,13 +12,13 @@ const closeMobileMenu = () => {
 
 <template>
   <div
-    class="fixed top-0 left-0 right-0 border-b border-gray-600 backdrop-blur bg-black/20 lg:px-20 xl:px-40 md:px-8 md:border-0"
+    class="fixed top-0 left-0 right-0 border-b border-gray-600 backdrop-blur bg-black/20 lg:px-20 xl:px-40 md:px-8 md:border-0 z-50"
   >
-    <div class="flex items-center justify-between px-5 py-3 relative">
+    <div class="relative flex items-center justify-between px-5 py-4">
       <router-link
         to="/"
         aria-label="Logo"
-        class="fixed top-1.5 left-1/2 order-2 -ml-5 md:order-1 md:-ml-0 md:w-max md:static md:top-0 md:left-0"
+        class="fixed top-3 left-1/2 order-2 -ml-5 md:order-1 md:-ml-0 md:w-max md:static md:top-0 md:left-0"
       >
         <img src="@/assets/logo.png" alt="Dandnirv" class="w-9" />
       </router-link>
@@ -81,9 +81,10 @@ const closeMobileMenu = () => {
         <div class="px-5 py-3">
           <router-link
             to="/"
-            class="block py-2 font-semibold text-gray-400 hover:text-[#64ffda] hover:no-underline"
+            class="block w-max py-2 font-semibold hover:text-[#64ffda] hover:no-underline"
             :class="{
               'text-[#64ffda] hover:no-underline': $route.path === '/',
+              'text-gray-400': $route.path !== '/',
             }"
             @click="closeMobileMenu"
           >
@@ -91,9 +92,10 @@ const closeMobileMenu = () => {
           </router-link>
           <router-link
             to="/about-me"
-            class="block py-2 font-semibold text-gray-400 hover:text-[#64ffda] hover:no-underline"
+            class="block w-max py-2 font-semibold hover:text-[#64ffda] hover:no-underline"
             :class="{
               'text-[#64ffda] hover:no-underline': $route.path === '/about-me',
+              'text-gray-400': $route.path !== '/about-me',
             }"
             @click="closeMobileMenu"
           >
@@ -101,9 +103,10 @@ const closeMobileMenu = () => {
           </router-link>
           <router-link
             to="/projects"
-            class="block py-2 font-semibold text-gray-400 hover:text-[#64ffda] hover:no-underline"
+            class="block w-max py-2 font-semibold hover:text-[#64ffda] hover:no-underline"
             :class="{
               'text-[#64ffda] hover:no-underline': $route.path === '/projects',
+              'text-gray-400': $route.path !== '/projects',
             }"
             @click="closeMobileMenu"
           >
