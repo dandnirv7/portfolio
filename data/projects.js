@@ -35,7 +35,7 @@ export const projects = [
     slugs: "https://github.com/dandnirv7/vue-pokeapi",
     title: "Poke API",
     description:
-      "The Meal is the place to find your daily cooking inspiration. Discover recipes from different countries, try new ingredients and enjoy delicious food with us.",
+      "PokeAPI simplifies Pokemon info with types, abilities, and evolutions. User-friendly for trainers and fans, it offers insights into habitats, locations, and game availability, ensuring regular updates.",
     techStack: [
       { icon: html5 },
       { icon: css3 },

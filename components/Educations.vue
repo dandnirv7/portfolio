@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mt-16">
-      <h1 class="mb-10 text-3xl font-bold text-white">Educations I've Done.</h1>
+      <h1 class="mb-10 text-3xl font-bold text-white">Educations Journey.</h1>
       <ol class="relative border-l border-gray-200 dark:border-gray-700">
         <li class="mb-10 ml-4">
           <div
@@ -18,7 +18,7 @@
           </div>
           <time
             class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-            >September 2023</time
+            >September 2023 - Present</time
           >
         </li>
         <li class="mb-10 ml-4">

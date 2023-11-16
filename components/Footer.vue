@@ -27,11 +27,16 @@
         <a href="mailto:dandinirpana7@gmail.com">
           <Icon name="heroicons:envelope-20-solid" size="24px" />
         </a>
-        <a href="https://twitter.com/dandnirv">
+        <a href="https://www.twitter.com/dandnirv7">
           <Icon name="mdi:twitter" size="24px" />
         </a>
-        <Icon name="ic:baseline-discord" size="24px" />
-        <a href="https://github.com/dandnirv7">
+        <a href="https:/www.linkedin.com/in/dandnirv">
+          <Icon name="mdi:linkedin" size="24px" />
+        </a>
+        <a href="https://www.discord.com/users/726811729593499698">
+          <Icon name="ic:baseline-discord" size="24px" />
+        </a>
+        <a href="https://www.github.com/dandnirv7">
           <Icon name="mdi:github" size="24px" />
         </a>
       </div>
