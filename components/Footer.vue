@@ -30,7 +30,7 @@
         <a href="https://www.twitter.com/dandnirv7">
           <Icon name="mdi:twitter" size="24px" />
         </a>
-        <a href="https:/www.linkedin.com/in/dandnirv">
+        <a href="https://www.linkedin.com/in/dandnirv">
           <Icon name="mdi:linkedin" size="24px" />
         </a>
         <a href="https://www.discord.com/users/726811729593499698">
