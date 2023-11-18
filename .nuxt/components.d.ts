@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'Educations': typeof import("../components/Educations.vue")['default']
     'Footer': typeof import("../components/Footer.vue")['default']
+    'HeadMetaData': typeof import("../components/HeadMetaData.vue")['default']
     'Navbar': typeof import("../components/Navbar.vue")['default']
     'Projects': typeof import("../components/Projects.vue")['default']
     'RandomProjects': typeof import("../components/RandomProjects.vue")['default']
@@ -30,6 +31,7 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyEducations': typeof import("../components/Educations.vue")['default']
     'LazyFooter': typeof import("../components/Footer.vue")['default']
+    'LazyHeadMetaData': typeof import("../components/HeadMetaData.vue")['default']
     'LazyNavbar': typeof import("../components/Navbar.vue")['default']
     'LazyProjects': typeof import("../components/Projects.vue")['default']
     'LazyRandomProjects': typeof import("../components/RandomProjects.vue")['default']
@@ -60,6 +62,7 @@ declare module 'vue' {
 
 export const Educations: typeof import("../components/Educations.vue")['default']
 export const Footer: typeof import("../components/Footer.vue")['default']
+export const HeadMetaData: typeof import("../components/HeadMetaData.vue")['default']
 export const Navbar: typeof import("../components/Navbar.vue")['default']
 export const Projects: typeof import("../components/Projects.vue")['default']
 export const RandomProjects: typeof import("../components/RandomProjects.vue")['default']
@@ -87,6 +90,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyEducations: typeof import("../components/Educations.vue")['default']
 export const LazyFooter: typeof import("../components/Footer.vue")['default']
+export const LazyHeadMetaData: typeof import("../components/HeadMetaData.vue")['default']
 export const LazyNavbar: typeof import("../components/Navbar.vue")['default']
 export const LazyProjects: typeof import("../components/Projects.vue")['default']
 export const LazyRandomProjects: typeof import("../components/RandomProjects.vue")['default']
