@@ -2,8 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "nuxt-icon"],
-  head: {
-    link: [{ rel: "icon", type: "image/png", href: "/logo.png" }],
+  app: {
+    head: {
+      link: [{ rel: "icon", type: "image/png", href: "/logo.png" }],
+    },
   },
   ssr: false,
 });
