@@ -1,6 +1,8 @@
 <script setup>
 import { onMounted } from "vue";
 import { initFlowbite } from "flowbite";
+import Navbar from "~/components/Layouts/Navbar.vue";
+import Footer from "~/components/Layouts/Footer.vue";
 
 onMounted(() => {
   initFlowbite();

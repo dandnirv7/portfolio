@@ -25,7 +25,7 @@ const closeMobileMenu = () => {
 
       <div class="w-full md:hidden">
         <button
-          class="md:hidden text-gray-400 hover:text-[#64ffda] hover:no-underline"
+          class="text-gray-400 md:hidden hover:text-tosca-green hover:no-underline"
           @click="toggleMobileMenu"
         >
           <Icon name="mdi:menu" size="24px" v-if="!mobileMenuActive" />
@@ -33,7 +33,7 @@ const closeMobileMenu = () => {
 
         <button
           v-if="mobileMenuActive"
-          class="text-gray-400 hover:text-[#64ffda] hover:no-underline absolute top-5 left-5"
+          class="absolute text-gray-400 hover:text-tosca-green hover:no-underline top-5 left-5"
           @click="closeMobileMenu"
         >
           <Icon name="heroicons-solid:x" size="24px" />
@@ -46,7 +46,7 @@ const closeMobileMenu = () => {
             to="/"
             class="font-semibold hover:text-decoration hover:underline"
             :class="{
-              'text-[#64ffda] hover:no-underline': $route.path === '/',
+              'text-tosca-green hover:no-underline': $route.path === '/',
               'text-gray-400': $route.path !== '/',
             }"
           >
@@ -56,7 +56,8 @@ const closeMobileMenu = () => {
             to="/about-me"
             class="font-semibold hover:text-decoration hover:underline"
             :class="{
-              'text-[#64ffda] hover:no-underline': $route.path === '/about-me',
+              'text-tosca-green hover:no-underline':
+                $route.path === '/about-me',
               'text-gray-400': $route.path !== '/about-me',
             }"
           >
@@ -66,7 +67,8 @@ const closeMobileMenu = () => {
             to="/projects"
             class="font-semibold hover:text-decoration hover:underline"
             :class="{
-              'text-[#64ffda] hover:no-underline': $route.path === '/projects',
+              'text-tosca-green hover:no-underline':
+                $route.path === '/projects',
               'text-gray-400': $route.path !== '/projects',
             }"
           >
@@ -81,27 +83,29 @@ const closeMobileMenu = () => {
         <div class="px-5 py-3">
           <router-link
             to="/"
-            class="block py-2 font-semibold text-gray-400 hover:text-[#64ffda] hover:no-underline"
+            class="block py-2 font-semibold text-gray-400 hover:text-tosca-green hover:no-underline"
             :class="{
-              'text-[#64ffda] hover:no-underline': $route.path === '/',
+              'text-tosca-green hover:no-underline': $route.path === '/',
             }"
           >
             Home
           </router-link>
           <router-link
             to="/about-me"
-            class="block py-2 font-semibold text-gray-400 hover:text-[#64ffda] hover:no-underline"
+            class="block py-2 font-semibold text-gray-400 hover:text-tosca-green hover:no-underline"
             :class="{
-              'text-[#64ffda] hover:no-underline': $route.path === '/about-me',
+              'text-tosca-green hover:no-underline':
+                $route.path === '/about-me',
             }"
           >
             About Me
           </router-link>
           <router-link
             to="/projects"
-            class="block py-2 font-semibold text-gray-400 hover:text-[#64ffda] hover:no-underline"
+            class="block py-2 font-semibold text-gray-400 hover:text-tosca-green hover:no-underline"
             :class="{
-              'text-[#64ffda] hover:no-underline': $route.path === '/projects',
+              'text-tosca-green hover:no-underline':
+                $route.path === '/projects',
             }"
           >
             My Work

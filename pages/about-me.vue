@@ -1,10 +1,10 @@
 <template>
   <div>
     <Head>
-      <Title>Dandnirv - About Me</Title>
+      <Title>About Me | Dandi Nirpana Nahin</Title>
     </Head>
     <Summary />
-    <Technologies />
-    <Educations />
+    <TechnologiesList />
+    <EducationsList />
   </div>
 </template>
