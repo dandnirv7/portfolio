@@ -1,7 +1,4 @@
 <script setup>
-import HeadMetaData from "~/components/HeadMetaData.vue";
-import RandomProjects from "~/components/RandomProjects.vue";
-
 const pageTitle = "Home";
 const ogImageUrl =
   "https://cdn.discordapp.com/attachments/1056235235861344346/1175313390789468190/751e6840-37b4-47ed-b52e-c2a7e896a86f.png?ex=656ac6e4&is=655851e4&hm=06c7907e4588d0f89bf3f04ee761ab731bd278ebd138c3ce99dc77d561080986";
@@ -44,10 +41,10 @@ const pageDescription =
         </div>
       </div>
 
-      <div class="mt-40">
+      <div class="mt-32">
         <h1 class="text-3xl font-bold text-white">Things I Worked on.</h1>
         <div class="mt-10 mb-12">
-          <RandomProjects />
+          <ProjectsList :isRandom="true" />
         </div>
         <router-link
           to="/projects"

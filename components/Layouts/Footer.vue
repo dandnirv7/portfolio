@@ -22,22 +22,19 @@
     <div
       class="flex flex-col items-start justify-between py-4 space-y-4 border-t border-gray-400/20 md:items-center md:flex-row"
     >
-      <span>&copy; 2023 Dandnirv. All Rights Reserved.</span>
-      <div class="flex items-center justify-center space-x-5">
+      <span>&copy; 2024 Dandnirv. All Rights Reserved.</span>
+      <div class="flex items-center justify-center gap-4">
         <a href="mailto:dandinirpana7@gmail.com">
-          <Icon name="heroicons:envelope-20-solid" size="24px" />
+          <Icon name="heroicons:envelope-20-solid" size="28px" />
         </a>
-        <a href="https://www.twitter.com/dandnirv7">
-          <Icon name="mdi:twitter" size="24px" />
+        <a href="https://twitter.com/dandnirv7">
+          <Icon name="mdi:twitter" size="28px" />
         </a>
-        <a href="https://www.linkedin.com/in/dandnirv">
-          <Icon name="mdi:linkedin" size="24px" />
+        <a href="https://github.com/dandnirv7">
+          <Icon name="mdi:github" size="28px" />
         </a>
-        <a href="https://www.discord.com/users/726811729593499698">
-          <Icon name="ic:baseline-discord" size="24px" />
-        </a>
-        <a href="https://www.github.com/dandnirv7">
-          <Icon name="mdi:github" size="24px" />
+        <a href="https://linkedin.com/in/dandnirv">
+          <Icon name="mdi:linkedin" size="28px" />
         </a>
       </div>
     </div>
